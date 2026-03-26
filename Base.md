@@ -1,7 +1,7 @@
 Global CSS resets and typography smoothing.
 
 ```space-style
-/* priority: 900 */
+/* priority: 800 */
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -12,27 +12,6 @@ body {
   .cm-content {
     font-family: var(--editor-font);
     font-variant-numeric: tabular-nums;
-  }
-  
-  .sb-list-item-bullet,
-  .cm-list-indent {
-    font-family: var(--code-font) !important;
-    display: inline-block;
-    min-width: 1.5ch;
-    text-align: right;
-    margin-right: 0.5ch;
-  }
-
-  .sb-li-cursor {
-    padding-right: 1ch; /* TODO: Spacing is still broken */
-  }
-
-  .cm-list-bullet {
-    padding-right: 1ch;
-  }
-
-   .sb-task-checkbox {
-    margin-right: 0.6ch;
   }
 }
 
