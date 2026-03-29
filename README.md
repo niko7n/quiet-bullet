@@ -1,9 +1,10 @@
-# quiet-bullet
-This is a minimal [SilverBullet](https://silverbullet.md/) theme designed for a quieter, easier-on-the-eyes aesthetic.
+# quiet-bullet 🤫
+A minimal, easier-on-the-eyes theme for [SilverBullet](https://silverbullet.md/) (V2).
 
-![Showcase image](example.png)
+![Preview Image](preview.png)
 
-## Files Structure
+## Files Structure | Configuration
+To ease the customization of this theme, the `space-style` is split across several files. 
 
 | File Name          | Role                                                    | Priority |
 |--------------------|---------------------------------------------------------|----------|
@@ -14,13 +15,13 @@ This is a minimal [SilverBullet](https://silverbullet.md/) theme designed for a 
 | `Interface`        | SilverBullet UI (Top bar, Buttons, Notifications, etc.) | 600      |
 
 ## Installation
-Install quiet-bullet by either cloning this repository into your space or by moving the files manually. Ensure no other space-style blocks interfere.
+Simply clone this repository into your space or copy the files manually. Done :)
 
-## Status
-I just started developing this theme and have only changed styles for components I often use. Feel free to enhance this theme. Development is taking place on [Codeberg](https://codeberg.org/) -> [Repo](https://codeberg.org/niko7n/quiet-bullet) and is mirrored to GitHub.
+## Status & Contribution
+Currently in active early development. I am prioritizing the components I use most frequently in my daily workflow.
 
-There are open TODOs.
+Feedback and Contributions are welcome! Development happens on [Codeberg](https://codeberg.org/niko7n/quiet-bullet) and is mirrored to [GitHub](https://github.com/niko7n/quiet-bullet). Please feel free to open an issue or submit a PR if you find a UI element that needs a "quiet" touch.
 
-## Thanks
-- [@zefhemel](https://github.com/zefhemel) for Silverbullet.md
-- [@mschmidtkorth](https://github.com/mschmidtkorth) for [silverbullet-zen](https://github.com/mschmidtkorth/silverbullet-zen/blob/main/ZEN_THEME.md) as it helped greatly finding all the required css variabels.
+## Acknowledgments
+- [@zefhemel](https://github.com/zefhemel) for creating [SilverBullet](https://silverbullet.md)
+- [@mschmidtkorth](https://github.com/mschmidtkorth) for [silverbullet-zen](https://github.com/mschmidtkorth/silverbullet-zen/blob/main/ZEN_THEME.md) as it helped finding all the required css variabels.

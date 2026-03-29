@@ -26,7 +26,6 @@ Use `inline code` for small code snippets.
 /* priority: 700 */
 /* Inline Code */
 span.sb-code {
-  background: var(--editor-code-background-color) !important;
   border: 1px solid var(--code-border-subtle);
   color: var(--text-primary);
   border-radius: var(--radius-sm);
@@ -64,8 +63,8 @@ div.sb-line-fenced-code {
 ---
 
 # Markdown Line
-/* priority: 700 */
 ```space-style
+/* priority: 700 */
 .sb-line-hr {
   border-color: var(--code-border-subtle);
 }
@@ -102,7 +101,32 @@ div.sb-line-fenced-code {
 
 # Blockquote
 ```space-style
+/* priority: 700 */
 #sb-main .cm-editor .sb-blockquote-outside {
   text-indent: 0.5ch;
+}
+```
+
+---
+
+# Highlight
+```space-style
+/* priority: 700 */
+.sb-highlight {
+  padding: 0px 2px;
+  border-radius: var(--radius-xs);
+}
+```
+
+---
+
+# Table
+```space-style
+/* priority: 700 */
+.sb-table-widget {
+  border-radius: var(--radius-md);
+  border-width: 1px;
+  border-style: solid;
+  border-color: var(--surface-raised);
 }
 ```

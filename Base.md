@@ -13,6 +13,8 @@ body {
     font-family: var(--editor-font);
     font-variant-numeric: tabular-nums;
   }
+
+  background-color: var(--surface-lower) !important;
 }
 
 /* Selection highlight */
