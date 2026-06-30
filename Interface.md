@@ -11,10 +11,9 @@ SilverBullet UI (Top bar, Buttons, Notifications, etc.).
 ## Title (Top Bar)
 ```space-style
 /* priority: 600 */
-
 #sb-top 
 {
-  .cm-content {
+  .sb-input {
     font-size: 1em;
     font-weight: bold;
   }

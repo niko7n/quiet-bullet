@@ -1,5 +1,5 @@
 # quiet-bullet 🤫
-A minimal, easier-on-the-eyes theme for [SilverBullet](https://silverbullet.md/) (V2).
+A minimal, easier-on-the-eyes theme for [SilverBullet](https://silverbullet.md/) (V2 - 2.9.0).
 
 ![Preview Image](preview.png)
 

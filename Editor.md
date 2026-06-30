@@ -46,6 +46,7 @@ div.sb-line-fenced-code {
   padding: 0 0.8em !important;
 }
 
+
 /* Rounded borders */
 /* First line with button */
 .sb-line-fenced-code:has(.sb-actions) {
@@ -72,34 +73,7 @@ div.sb-line-fenced-code {
 
 ---
 
-# Lists
-```space-style
-/* priority: 700 */
-  .sb-list-item-bullet,
-  .cm-list-indent {
-    font-family: var(--code-font) !important;
-    display: inline-block;
-    min-width: 1.5ch;
-    text-align: right;
-    margin-right: 0.5ch;
-  }
-
-  .sb-li-cursor {
-    padding-right: 1ch; /* TODO: Spacing is still broken */
-  }
-
-  .cm-list-bullet {
-    padding-right: 1ch;
-  }
-
-   .sb-task-checkbox {
-    margin-right: 0.6ch;
-  }
-```
-
----
-
-# Blockquote
+# Block-quote
 ```space-style
 /* priority: 700 */
 #sb-main .cm-editor .sb-blockquote-outside {
@@ -128,5 +102,13 @@ div.sb-line-fenced-code {
   border-width: 1px;
   border-style: solid;
   border-color: var(--surface-raised);
+}
+```
+
+# Headings
+```space-style
+/* priority: 700 */
+.sb-h3 {
+  font-size: 0.9em;
 }
 ```

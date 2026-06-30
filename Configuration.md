@@ -3,9 +3,13 @@ Main font stacks and layout variables.
 ```space-style
 /* priority: 1000 */
 :root, html, body {
-  /* Main Fonts */
-  --editor-font: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, sans-serif;
+  /* Fonts */
+  /* NOTE: Using a proportional font can break list and other layout styling.*/
+  /* For a proportional editor font, uncomment below. */
+  /*--editor-font: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, sans-serif;*/
   --code-font: "IBM Plex Mono", "SF Mono", Menlo, Monaco, Consolas, monospace;
+  
+  --editor-width: 60rem !important;
 
   /* Border Radii */
   --radius-xs: 2px;
